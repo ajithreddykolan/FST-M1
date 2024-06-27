@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" name="Suite">
+	
+	
+  <test name="Test">
+	<!-- <groups>
+        <run>
+            <include name="ButtonTests" />
+            <exclude name="HeaderTests" />-
+        </run>
+    </groups>
+    <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>-->
+    <classes>
+    	     <class name="activities.Activity4_DemoOne"/>
+            <class name="activities.Activity4_DemoTwo"/>
+            <class name="activities.Activity5"/>
+            <class name="activities.Activity6"/>
+            <class name="activities.Activity1"/>
+            <class name="activities.Activity2"/>
+            <class name="activities.Activity3"/>
+            
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
